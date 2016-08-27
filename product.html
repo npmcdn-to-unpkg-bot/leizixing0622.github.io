@@ -1,0 +1,76 @@
+
+		
+		<div class="container" ng-controller="productController">
+             <nav class="navbar navbar-default" style="background:#e4393c;">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				     
+				      <a class="navbar-brand" href="#" style="font-size:20px;font-weight:bold;color:#fff;font-family:Micro Yahei">子星糖果店</a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      
+				      <form class="navbar-form navbar-left" role="search">
+				        <div class="form-group">
+				          <input ng-model="search.intro" type="text" class="form-control" placeholder="搜一搜">
+				        </div>
+				        
+				      </form>
+				      
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+              
+
+                
+                
+                
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+				    <div class="btn-group" role="group">
+							  <button type="button" class="btn btn-default" ng-click="changeOrder('sales')" ng-class="{dropup:order===''&&orderType==='sales'}">销量&nbsp&nbsp<span class="caret"></span></button>
+					</div> 		  
+
+                    <div class="btn-group" role="group">
+							  <button type="button" class="btn btn-default" ng-click="changeOrder('price')" ng-class="{dropup:order===''&&orderType==='price'}">价格&nbsp&nbsp<span class="caret"></span></button>
+					</div>		  
+
+                    <div class="btn-group" role="group">
+							  <button type="button" class="btn btn-default" ng-click="changeOrder('comment')" ng-class="{dropup:order===''&&orderType==='comment'}">评论数&nbsp&nbsp<span class="caret"></span></button>
+			        </div>           
+			                
+			                <div class="btn-group" role="group">
+							    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							      品牌
+							      <span class="caret"></span>
+							    </button>
+							    <ul class="dropdown-menu">
+							      <li><a href="#">好邻居</a></li>
+							      <li><a href="#">金丝猴</a></li>
+							      <li><a href="#">德芙</a></li>
+							      <li><a href="#">雅客</a></li>
+							    </ul>
+			                </div>
+				    
+                </div>
+                
+
+
+
+
+             <div class="row">
+			  <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="product in productData|filter:search|orderBy:order+orderType">
+			    <div class="thumbnail">
+			      <img ng-click="toDetails(product.id)" src={{product.img}} alt="...">
+			      <div class="caption">
+			        <h3 style="font-size:14px;font-weight:bold;color:#ff5b5b;">{{product.price|currency:'￥'}}<span style="float:right;font-size:12px;color:#888;font-weight:normal;">{{product.sales}}人付款</span></h3>
+                    <p style="color:#3d3d3d;">{{product.intro}}</p>
+			        <p style="font-family:verdana;font-weight:400;color:#a7a7a7;">已有<span style="color:#005aa0;">{{product.comment}}</span>人评价</p>
+			        <p><a href="#" class="btn btn-primary btn-xs" role="button">立即购买</a> <a href="#" class="btn btn-default btn-xs" role="button">加入购物车</a></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+

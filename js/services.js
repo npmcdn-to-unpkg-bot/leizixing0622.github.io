@@ -1,0 +1,205 @@
+myApp.service('productData',function(){
+    return[
+        {
+            img:'img/01.jpg',
+            intro:'好邻居喜糖枣生贵子500克散装宝宝满月百周岁喜糖阿胶枣',
+            name:'好邻居',
+            price:13.9,
+            sales:868,
+            comment:87,
+            id:1
+        },{
+            img:'img/02.jpg',
+            intro:'好邻居 新人牵手幸福一生 爱心状奶糖硬果散装500g',
+            name:'好邻居',
+            price:22.8,
+            sales:3656,
+            comment:285,
+            id:2
+        },{
+            img:'img/03.jpg',
+            intro:'好邻居良缘婚礼巧克力500g 结婚庆喜糖果（约130颗）',
+            name:'好邻居',
+            price:35,
+            sales:2603,
+            comment:188,
+            id:3
+        },{
+            img:'img/04.jpg',
+            intro:'好邻居喜庆结婚用糖果龙凤欢乐脆青豆妙脆角零食散装500克',
+            name:'好邻居',
+            price:18,
+            sales:4767,
+            comment:378,
+            id:4
+        },{
+            img:'img/05.jpg',
+            intro:'好邻居真情告白水果味硬糖散装500g 结婚喜糖（约100颗）',
+            name:'好邻居',
+            price:15,
+            sales:4982,
+            comment:412,
+            id:5
+        },{
+            img:'img/06.jpg',
+            intro:'好邻居黑糖话梅500g散装婚庆喜糖约70粒',
+            name:'好邻居',
+            price:19.8,
+            sales:1989,
+            comment:165,
+            id:6
+        },{
+            img:'img/07.jpg',
+            intro:'好邻居 棒棒糖 双喜棒糖 原味 草莓味 散装250g 糖果 草莓味',
+            name:'好邻居',
+            price:6.68,
+            sales:6068,
+            comment:548,
+            id:7
+        },{
+            img:'img/08.jpg',
+            intro:'正品好邻居 三角包 红色草莓味 牛奶硬糖散装 250g结婚婚庆喜糖',
+            name:'好邻居',
+            price:7.55,
+            sales:1173,
+            comment:62,
+            id:8
+        },{
+            img:'img/09.jpg',
+            intro:'好邻居杏福时刻幸福人生喜糖 杏仁糖果500克散装 扁桃仁坚果',
+            name:'好邻居',
+            price:25.9,
+            sales:2347,
+            comment:198,
+            id:9
+        },{
+            img:'img/10.jpg',
+            intro:'好邻居 结婚喜糖 双喜奶糖散装250g 婚庆软糖年货休闲糖果',
+            name:'好邻居',
+            price:6.88,
+            sales:1959,
+            comment:203,
+            id:10
+        },{
+            img:'img/11.jpg',
+            intro:'金丝猴 牛奶巧克力（代可可脂）122g 低聚异麦芽糖 氢化植物油 ',
+            name:'金丝猴',
+            price:16.2,
+            sales:1752,
+            comment:182,
+            id:11
+        },{
+            img:'img/12.jpg',
+            intro:'正品金丝猴黑糖话梅糖78g 酸酸甜甜好滋味 喜糖婚庆 零食糖果 ',
+            name:'金丝猴',
+            price:6.88,
+            sales:2548,
+            comment:243,
+            id:12
+        },{
+            img:'img/13.jpg',
+            intro:'金丝猴 果汁水晶糖(诱人蜜桃味)100g 517科尔沁吃货节 爆款来袭',
+            name:'金丝猴',
+            price:5,
+            sales:3609,
+            comment:269,
+            id:13
+        },{
+            img:'img/14.jpg',
+            intro:'金丝猴 休闲零食 话梅硬糖108g 517科尔沁吃货节 爆款来袭',
+            name:'金丝猴',
+            price:7.7,
+            sales:418,
+            comment:39,
+            id:14
+        },{
+            img:'img/15.jpg',
+            intro:'金丝猴 果汁水晶糖(怡人青苹味)100g 517科尔沁吃货节 爆款来袭',
+            name:'金丝猴',
+            price:5,
+            sales:3588,
+            comment:274,
+            id:15
+        },{
+            img:'img/16.jpg',
+            intro:'德芙dove巧克力礼盒装创意送男女朋友妻子生日表白礼物 教师节',
+            name:'德芙',
+            price:89.9,
+            sales:869,
+            comment:47,
+            id:16
+        },{
+            img:'img/17.jpg',
+            intro:'德芙Dove牛奶、榛仁葡萄干及黑巧克力什锦装（碗装）249g',
+            name:'德芙',
+            price:32.9,
+            sales:489,
+            comment:31,
+            id:17
+        },{
+            img:'img/18.jpg',
+            intro:'德芙巧克力礼盒装创意diy玫瑰四叶草七夕情人节生日礼物送女友',
+            name:'德芙',
+            price:32.9,
+            sales:553,
+            comment:49,
+            id:18
+        },{
+            img:'img/19.jpg',
+            intro:'德芙dove巧克力礼盒装送女朋友老婆 创意玫瑰花表白生日',
+            name:'德芙',
+            price:78.9,
+            sales:7509,
+            comment:699,
+            id:19
+        },{
+            img:'img/20.jpg',
+            intro:'德芙巧克力心语系列58粒金色礼盒 赠公仔卡片礼品袋教师 ',
+            name:'德芙',
+            price:99,
+            sales:3130,
+            comment:316,
+            id:20
+        },{
+            img:'img/21.jpg',
+            intro:'雅客浓点夹心水果果汁硬糖多种口味5*100g袋装雅克休闲',
+            name:'雅客',
+            price:19.9,
+            sales:14967,
+            comment:423,
+            id:21
+        },{
+            img:'img/22.jpg',
+            intro:'雅客V9维生素夹心硬糖糖果多种口味袋装108g 休闲糖果',
+            name:'雅客',
+            price:8.9,
+            sales:598,
+            comment:32,
+            id:22
+        },{
+            img:'img/23.jpg',
+            intro:'雅客燕麦巧克力原味500g芝麻味 雅克营养低糖喜糖麦片巧克力',
+            name:'雅客',
+            price:19.9,
+            sales:1256,
+            comment:89,
+            id:23
+        },{
+            img:'img/24.jpg',
+            intro:'雅客芒果味散装软糖500g 雅克结婚庆水果果汁软糖喜糖果 ',
+            name:'雅客',
+            price:19.9,
+            sales:900,
+            comment:82,
+            id:24
+        },{
+            img:'img/25.jpg',
+            intro:'雅客悠妙牛奶硬糖散装喜糖250g（约77颗）雅克婚庆结婚',
+            name:'雅客',
+            price:13.9,
+            sales:380,
+            comment:14,
+            id:25
+        }
+    ];
+})
